@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav{
+    max-width: 1300px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar{
+    display: flex;
+    /* justify-content: center; */
+    position: sticky;
+    top: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.items a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.items span a {
+    padding: 17px 28px;
+    width: 170px;
+    height: 50px;
+    background-color: #F36D21;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: .5s
+}
+
+.items span a:hover{
+    background-color: #E8275A;
+    color: white;
+    transition: .5s;
+}
+
+.items a i{
+    font-size: 5px;
+}
+
+.scroll{
+    width: 100%;
+    height: 35px;
+    background-color: #F36D21;
+}
+
+.sec{
+    width: 100%;
+    height: 680px;
+    display: flex;
+}
+
+.main-block1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.elementor-video{
+    width: 1180px;
+    height: 660px;
+    border: none;
+}
+
+.spot{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #F3F9FC;
+}
+
+.spotlight{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-box{
+    display: grid;
+    justify-content: center;
+}
+
+.headline{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headline h1{
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: #023E8A;
+    margin-bottom: 10px;
+}
+
+.line{
+    width: 100px;
+    height: 2.5px;
+    background-color: #F36D21;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.shortcode{
+    width: 100%;
+    display: grid;
+    padding-top: 50px;
+}
+
+.buttons{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.but {
+    height: 45px;
+    background-color: #F36D21;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 0.95rem;
+    transition: .5s;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.but:hover{
+    background-color: #E8275A;
+    color: white;
+    transition: .5s;
+}
+
+.places-image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.places{
+    width: 33.33%;
+    height: 500px;
+    padding: 10px;
+}
+
+.place-card{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 0.15px solid #D3D3D3;
+}
+
+.place-card a{
+    background-color: #F36D21;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin: 0 10px;
+    position: absolute;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: .5s;
+    font-weight: 600;
+}
+
+.place-card a:hover{
+    background-color: #E8275A;
+    color: white;
+    transition: .5s;
+}
+
+.pla{
+    width: 100%;
+    display: flex;
+}
+
+.pla img{
+    width: 100%;
+    height: 200px;
+}
+
+.places h4{
+    width: 100%;
+    margin: 30px 0;
+    padding: 0 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #023E8A;
+}
+
+.places p{
+    width: 100%;
+    font-size: 1.23rem;
+    color: #808080;
+    padding: 0 10px;
+    margin-bottom: 40px;
+}
+
+.social-video{
+    width: 100%;
+    padding: 100px 0;
+}
+
+.main-block2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.explore{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.explore-districts{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #F3F9FC;
+}
+
+.districts{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding-top: 40px;
+}
+
+.picture{
+    height: 340px;
+    padding: 10px;
+}
+
+.pic{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.pic img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.picture a{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.picture a:hover{
+    color: #E8275A;
+    transition: .5s;
+}
+
+.view{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more{
+    background-color: #F36D21;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+    font-size: 1.1rem;
+    padding: 5px 10px 4px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.more:hover{
+    background-color: #E8275A;
+    transition: .5s;
+}
+
+.fullimage{
+    width: 100%;
+    height: 60vh;
+}
+
+.full{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    background-image: url(images/district5.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.num{
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.num-box {
+    width: 25%;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.num-box span{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.num-box p{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.num-box span:hover{
+    transition: 1.5s;
+    font-size: 1.5rem;
+}
+
+.num-box p:hover{
+    transition: 1.5s;
+    font-size: 1rem;
+}
+
+footer{
+    width: 100%;
+    height: 70vh;
+    background-color: #0E0E0E;
+}
+
+.panel-1{
+    width: 100%;
+    height: 60vh;
+}
+
+.panel-in1{
+    width: 100%;
+    height: 100%;
+    padding: 40px 0;
+}
+
+.panel-in2{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel-boxes{
+    width: 18%;
+    height: 100%;
+}
+
+.panel-2{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-2 p{
+    width: 100%;
+    padding: auto ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1{
+    color: white;
+}
+
+.box-1 h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.box-1 span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    font-weight: 600;
+    font-size: 1.05rem;
+}
+
+.footer-logo{
+    width: 100%;
+    height: 60%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo img{
+    width: 80%;
+    height: 80%;
+}
+
+.box-2 h1{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.box-2 a{
+    width: auto;
+    display: grid;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.box-2 a:hover{
+    color: #F36D21;
+    transition: .5s;
+}
+
+.social-media{
+    width: 100%;
+}
+
+.social-media-icon{
+    margin: 40px 5px 0;
+    color: #F36D21;
+    font-size: 1.5rem;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.social-media-icon:hover{
+    color: white;
+    transition: .5s;
+}
